@@ -1,0 +1,10 @@
+{
+  "resourceName": "DataSets",
+  "tableName": "DataSets",
+  "partitionKey": {
+    "fieldName": "DataID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
