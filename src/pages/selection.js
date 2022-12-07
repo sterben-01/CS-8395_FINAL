@@ -10,8 +10,7 @@ import '../App.css'
 Amplify.configure(awsExports)
 const AWS = require('aws-sdk')
 AWS.config.update({ region : 'us-east-2',
-accessKeyId: 'AKIAV672JWJUDLOBDNEP',
-secretAccessKey: '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',
+
 })
 AWS.config.update({ AWS_SDK_LOAD_CONFIG:1 })
 async function submission(){
